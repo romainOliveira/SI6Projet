@@ -1,0 +1,56 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Login utilisateur</title>
+		<link href="../css/listeProduit.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+		
+		
+		<div class="header">
+		</div>
+
+		<div id="navbar">
+		  <a class="active" href="../html/accueil.html">Accueil</a>
+		  <a href="../html/listeProduit.php">Liste Produit</a>
+		  <a href="#">Ajout Produit</a>
+		  <a href="#">Ajout Catégorie</a>
+		  <a href="#">Suppression Produit</a>
+		  <div class="topnav-right">
+			<a href="../html/Connexion.html">Déconnexion</a>
+		  </div>
+		</div>
+		
+		<div id="contain">
+			<br>
+			<form action="../php/listeProduit.php" method="POST">
+				<div id="box">
+			
+			</form>
+			
+		
+		</div>
+
+		
+		
+		
+		
+		<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		  } else {
+			navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
+	</body>
+</html>
+
+

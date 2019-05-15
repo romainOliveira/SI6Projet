@@ -1,0 +1,92 @@
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../image/fondAccueil.jpg");
+}
+
+.header {
+	background-image: url("../image/fondAccueil.jpg");
+	background-repeat: repeat-x;
+	padding: 30px;
+	text-align: center;
+	margin:0;
+	font-family:serif;
+	font-size:0;
+	background-position:center;
+	
+	
+	
+  
+}
+.header h2{
+	color:red;
+	background-color:lightblue;
+	margin-left:43%;
+	margin-right:43%;
+	border-radius: 10% / 50%;
+	
+	
+
+	
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 10px;
+  padding: 5px; 
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+#navbar a:hover {
+  background-color: #181818;
+  color: white;
+  border-radius: 10px;
+}
+
+#navbar a.active {
+  background-color: #731d1d;
+  color: white;
+  border-radius: 10px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#contain{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	
+	
+
+}
